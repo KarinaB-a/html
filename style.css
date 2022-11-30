@@ -1,0 +1,18 @@
+
+.cat {
+    width: 500px;
+}
+
+body {
+    background: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    color: rgb(82, 167, 167);
+    font-size: 100 px;
+}
+.textLi {
+    color: rgb(175, 36, 94);
+    font-size: 100 px;
+}
