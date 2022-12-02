@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запрос имени пользователя</title>
+</head>
+<body>
+    <p>
+        Страничка с запросом.<br/> Ваше имя <span id="username"></span>
+    </p>
+    <script language = "JavaScript">
+        const name = prompt("Введите ваше имя");
+        
+        username(name);
+
+        function username(name){
+            alert(name);
+            document.getElementById("username").innerHTML = name
+        }
+    </script>
+</body>
+</html>
